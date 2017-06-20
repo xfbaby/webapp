@@ -1,0 +1,50 @@
+*{padding:0;margin:0;}
+a,a:hover{text-decoration: none;}
+input{outline: none;border: none;}
+/*切换动画*/
+.child-view {
+  position: absolute;
+  width:100%;
+  transition: all .8s cubic-bezier(.55,0,.1,1);
+  }
+  .slide-left-enter, .slide-right-leave-active {
+    opacity: 0;
+    -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);
+  }
+  .slide-left-leave-active, .slide-right-enter {
+    opacity: 0;
+    -webkit-transform: translate(-50px, 0);
+    transform: translate(-50px, 0);
+  }
+
+/* 公用的颜色，字体大小*/
+.red{color: #e8685f;}
+.grey{ color: #b2b0a3; }
+.grey2{color: #646361;}
+.black{color: #000;}
+.bgrey{background-color: #f5f5f5;}
+.w100{
+	width: 100%;
+}
+.bx{box-sizing: border-box;}
+.fc{color: #b6b1ab;}
+
+/* 变量*/
+@reds:#fedfdc;
+@rem:75rem;
+/*函数*/
+.fontsize(@f){
+font-size: @f
+}
+.borderradius (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+/*index*/
+
+
+
+	
+
