@@ -33,15 +33,20 @@
 			</ul>
 		</div>
 
+	<div >
+		
+
 	</div>
 	
 </template>
 <style  lang="less">
+
 @import url('../assets/reset.less');
 
 a.router-link-active{
 		color: red
 	}
+
 .tuijian_wrapper{
 	.banner{
 		width: 100%;
@@ -190,3 +195,4 @@ export default{
 }
 	
 </script>
+

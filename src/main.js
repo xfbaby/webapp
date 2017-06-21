@@ -2,13 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import App from './App.vue'
 import axios from 'axios'
-
 //插件
 
 //组件
 import Index from './components/Index.vue'
 import Login from './components/Login.vue'
 import Tuijian from './components/Tuijian.vue'
+<<<<<<< HEAD
 import Detail from './components/Detail.vue'
 import Mulu from './components/Mulu.vue'
 import B from './components/B.vue'
@@ -26,6 +26,7 @@ const router = new Router({
 			path:'/index',
 			component:Index,
 			children:[{
+
 				path: 'tuijian',
 				component:Tuijian
 			},
@@ -52,6 +53,7 @@ const router = new Router({
 		{
 			path:'/mulu',
 			component:Mulu
+
 		}
 
 
@@ -61,5 +63,6 @@ const router = new Router({
  new Vue({
   router
 }).$mount('#app')
-
 router.push('/index/tuijian')
+
+
