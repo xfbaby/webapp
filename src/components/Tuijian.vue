@@ -32,11 +32,8 @@
 				</div>
 			</ul>
 		</div>
-
-	<div >
-		
-
-	</div>
+    </div>
+	
 	
 </template>
 <style  lang="less">
@@ -177,7 +174,6 @@ export default{
 		this.$http.get(url).then(response => {
 			
 			this.items = response.data.data.books;
-           console.log(this.items);
           
 		},response => {
 

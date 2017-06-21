@@ -8,7 +8,6 @@ import axios from 'axios'
 import Index from './components/Index.vue'
 import Login from './components/Login.vue'
 import Tuijian from './components/Tuijian.vue'
-<<<<<<< HEAD
 import Detail from './components/Detail.vue'
 import Mulu from './components/Mulu.vue'
 import B from './components/B.vue'
