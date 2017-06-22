@@ -5,9 +5,9 @@
 	    <router-link to="/index/tuijian"   >推荐</router-link>
 	    <router-link to="/index/b"   >口味</router-link>
 	    <router-link to="/index/c"   >免费</router-link>
-	    <router-link to="/index/c"   >排行</router-link>
-	    <router-link to="/index/c"   >分类</router-link>
-	    <router-link to="/index/c"   >专题</router-link>
+	    <router-link to="/index/d"   >排行</router-link>
+	    <router-link to="/index/e"   >分类</router-link>
+	    <router-link to="/comment"   >专题</router-link>
 		<!-- <a href="javascript:;"></a>
 		<a href="javascript:;">口味</a>
 		<a href="javascript:;">面费</a> -->
@@ -65,7 +65,7 @@ import Router from 'vue-router'
 .nav{
 	.w100;
 	.bx;
-	height: 72/@rem;
+	
 	padding: 28/@rem  26/@rem;
 	display: inline-flex;
 	a{

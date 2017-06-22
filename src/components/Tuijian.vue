@@ -167,7 +167,8 @@ a.router-link-active{
 	
 </style>
 <script>
-var url = 'http://m.yuedu.163.com/rank/original/list/data.json?gender=female&sortType=week&type=sell';
+/*http://m.yuedu.163.com/rank/original/list/data.json?gender=female&sortType=week&type=sell*/
+var url = '../src/assets/data1.json';
 import Type from '../assets/filter.js'
 export default{
 	created(){

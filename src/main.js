@@ -10,6 +10,7 @@ import Login from './components/Login.vue'
 import Tuijian from './components/Tuijian.vue'
 import Detail from './components/Detail.vue'
 import Mulu from './components/Mulu.vue'
+import Comment from './components/Comment.vue'
 import B from './components/B.vue'
 import C from './components/C.vue'
 Vue.prototype.$http = axios
@@ -52,6 +53,11 @@ const router = new Router({
 		{
 			path:'/mulu',
 			component:Mulu
+
+		},
+		{
+			path:'/comment',
+			component:Comment
 
 		}
 
